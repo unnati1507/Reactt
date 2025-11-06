@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+width: 100vw;
+height: 10vh;
+background-color: yellow;  
+display:flex;
+align-items:center;
+justify-content:center;  
+gap: 180px;
+}
+#logo{
+    height: 120px;
+    width: 120px;
+    mix-blend-mode: multiply; 
+   background: #fff;  
+}
+#input_box{
+    height: 30px;
+    width: 400px;
+    border-radius: 2%;
+}
+.credentials{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap: 20px;
+}
